@@ -1,0 +1,125 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 20%;
+}
+.section-flex{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+h1{
+    font-size: 40px;
+    margin-top: 15%;
+}
+.color{
+    color: rgba(255, 174, 0, 0.795);
+}
+#stay-main{
+    border-left: 2px solid;
+    padding-left: 10px;
+}
+.button{
+    background-color: rgb(37, 180, 199);
+    color: #fff;
+    padding: 8px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 60%;
+    position: relative;
+    left: 25%;
+}
+
+
+.h2-center{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.flex-width{
+    width: 28%;
+}
+.flex-width img{
+    width: 100px;
+}
+#illustrator-1{
+    background-color: rgb(212, 183, 171);
+    padding: 15px;
+    border-radius: 15px;
+}
+#illustrator-2{
+    background-color: rgb(215, 228, 233);
+    padding: 15px;
+    border-radius: 15px;
+}
+#illustrator-3{
+    background-color: rgb(202, 201, 177);
+    padding: 15px;
+    border-radius: 15px;
+}
+h4{
+    font-size: 20px;
+}
+
+#margin{
+    margin: 70px 0;
+}
+#develop-left{
+    width: 35%
+}
+#develop-left img{
+    width: 300px;
+}
+#develop-right{
+    width: 70%;
+}
+.h3-left{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#global-left{
+    width: 65%;
+    text-align: justify;
+}
+#global-right{
+    width: 40%;
+}
+#global-right img{
+    width: 300px;
+    position: absolute;
+    right: 0;
+}
+
+#h2-left{
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+#img{
+    width: 30%;
+}
+#corona{
+    margin-top: 100px
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+footer h4{
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+footer span{
+    color: red;
+}
+footer p{
+    color: #aaa;
+}
