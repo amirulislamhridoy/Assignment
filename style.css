@@ -35,7 +35,7 @@ h1{
     left: 25%;
 }
 
-
+/* mission */
 .h2-center{
     text-align: center;
     font-size: 35px;
@@ -66,6 +66,7 @@ h4{
     font-size: 20px;
 }
 
+/* developer */
 #margin{
     margin: 70px 0;
 }
@@ -83,6 +84,7 @@ h4{
     font-size: 30px;
 }
 
+/* global */
 #global-left{
     width: 65%;
     text-align: justify;
@@ -122,4 +124,55 @@ footer span{
 }
 footer p{
     color: #aaa;
+}
+
+/* media quary or break points */
+@media (max-width: 1600px){
+    #develop-left img{
+        width: 100%;
+    }
+    #develop-right{
+        width: 60%;
+    }
+    #global-left{
+        width: 60%
+    }
+    #global-right{
+        width: 35%;
+    }
+    #global-right img{
+        width: 100%;
+        position: relative;
+        right: 0;
+    }
+}
+@media (max-width: 688px){
+    .section-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .half-width{
+        width: 100%;
+    }
+    .flex-width{
+        width: 80%;
+        margin: 3% 0;
+    }
+    #develop-left{
+        width: 80%
+    }
+    #develop-right{
+        width: 100%
+    }
+    #global-left{
+        width: 100%;
+    }
+    #global-right{
+        width: 80%;
+        margin-top: 8%;
+    }
+    #img{
+        width: 100%;
+    }
 }
