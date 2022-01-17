@@ -146,6 +146,31 @@ footer p{
         right: 0;
     }
 }
+
+@media (max-width: 992px){
+    body{
+        margin: 0 15%;
+    }
+    .half-width img{
+        width: 100%;
+        margin-top: 10%;
+    }
+    #section-flex{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flex-width{
+        width:40%;
+    }
+    #illustrator-3{
+        margin-top: 5%;
+    }
+    #global-right img{
+        margin-top: 25%;
+    }
+}
+
+
 @media (max-width: 688px){
     body{
         margin: 0 10%;
